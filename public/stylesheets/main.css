@@ -3,7 +3,33 @@ body {
     width: 100%;
 }
 
-iframe {
-    max-height: 80vh;
+/* SECTION PRESENTATION */
+
+section.presentation {
+
+}
+
+section.presentation header {
+    height: 10vh;
+    max-height: 10vh;
+}
+
+section.presentation iframe {
+    max-height: 90vh;
+    max-width: 100vw;
+}
+
+section.presentation {
+
+}
+
+/* SECTION EKO VIDEO */
+
+section.eko {
+
+}
+
+section.eko iframe{
+    max-height: 100vh;
     max-width: 100vw;
 }
