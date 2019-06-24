@@ -19,6 +19,8 @@ const init = () => {
     app.use(bodyParser.json());
 
     app.listen(PORT, () => console.log(`Listening on ${ PORT }`));
+
+    app.use('/css',express.static(__dirname +'/css'));
 };
 
 init();
