@@ -9,11 +9,12 @@ body {
     text-align: center;
 }
 
-/* SECTION PRESENTATION */
-
-section.presentation {
-
+.content {
+    height: 90vh;
+    max-height: 90vh;
 }
+
+/* SECTION PRESENTATION */
 
 section.presentation h1 {
     height: 5vh;
@@ -23,10 +24,6 @@ section.presentation h1 {
 section.presentation iframe {
     max-height: 90vh;
     max-width: 100vw;
-}
-
-section.presentation {
-
 }
 
 /* SECTION EKO VIDEO */
