@@ -3,15 +3,21 @@ body {
     width: 100%;
 }
 
+.arrow-content {
+    height: 5vh;
+    max-height: 5vh;
+    text-align: center;
+}
+
 /* SECTION PRESENTATION */
 
 section.presentation {
 
 }
 
-section.presentation header {
-    height: 10vh;
-    max-height: 10vh;
+section.presentation h1 {
+    height: 5vh;
+    max-height: 5vh;
 }
 
 section.presentation iframe {
@@ -30,6 +36,11 @@ section.eko {
 }
 
 section.eko iframe{
-    max-height: 100vh;
+    max-height: 90vh;
+    max-width: 100vw;
+}
+
+section.ecv iframe {
+    max-height: 90vh;
     max-width: 100vw;
 }
