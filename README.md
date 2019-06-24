@@ -8,8 +8,8 @@ Make sure you have [Node.js](http://nodejs.org/) and the [Heroku CLI](https://cl
 
 ```sh
 $ heroku login
-$ heroku git:clone -a gp-savetheplanet
-$ cd gp-savetheplanet
+$ heroku git:clone -a gp-protecttheoceans
+$ cd gp-protecttheoceans
 $ npm install
 $ npm start
 ```
@@ -27,4 +27,4 @@ $ git commit -am "make it better"
 $ git push heroku master
 ```
 
-Changes will be automatically pull from the prod server. It should be live on [gp-savetheplanet.herokuapp.com](http://gp-savetheplanet.herokuapp.com/). 
+Changes will be automatically pull from the prod server. It should be live on [gp-protecttheoceans.herokuapp.com](http://gp-protecttheoceans.herokuapp.com/). 
