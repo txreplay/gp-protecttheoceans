@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="323" height="22" viewBox="0 0 323 22">
+    <defs>
+        <linearGradient id="a" x1="-284.648%" x2="251.036%" y1="45.575%" y2="50.931%">
+            <stop offset="0%" stop-color="#E73E11"/>
+            <stop offset="4.574%" stop-color="#E5500F"/>
+            <stop offset="20.248%" stop-color="#DE8B09"/>
+            <stop offset="33.648%" stop-color="#D9B504"/>
+            <stop offset="44.097%" stop-color="#D6CF01"/>
+            <stop offset="50.315%" stop-color="#D5D900"/>
+            <stop offset="55.122%" stop-color="#C9D70D"/>
+            <stop offset="64.08%" stop-color="#A9D030"/>
+            <stop offset="76.213%" stop-color="#75C669"/>
+            <stop offset="90.889%" stop-color="#2FB8B6"/>
+            <stop offset="100%" stop-color="#00AFEA"/>
+        </linearGradient>
+        <linearGradient id="b" x1="-2052.123%" x2="674.453%" y1="-5355.403%" y2="1319.373%">
+            <stop offset="0%" stop-color="#E73E11"/>
+            <stop offset="4.574%" stop-color="#E5500F"/>
+            <stop offset="20.248%" stop-color="#DE8B09"/>
+            <stop offset="33.648%" stop-color="#D9B504"/>
+            <stop offset="44.097%" stop-color="#D6CF01"/>
+            <stop offset="50.315%" stop-color="#D5D900"/>
+            <stop offset="55.122%" stop-color="#C9D70D"/>
+            <stop offset="64.08%" stop-color="#A9D030"/>
+            <stop offset="76.213%" stop-color="#75C669"/>
+            <stop offset="90.889%" stop-color="#2FB8B6"/>
+            <stop offset="100%" stop-color="#00AFEA"/>
+        </linearGradient>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <path fill="#FFF" d="M0 0h323v22H0z"/>
+        <text fill="url(#a)" fill-rule="nonzero" font-family="Montserrat-Bold, Montserrat" font-size="15" font-weight="bold">
+            <tspan x="5" y="16">Je souhaite en savoir plus sur le traité</tspan>
+        </text>
+        <path fill="url(#b)" fill-rule="nonzero" d="M9.412 4.19l-.369.355-.151.146L6.11 7.505l-.07-.068-.07.068-.347-.351L3.197 4.7l-.529-.51.013-.012L.304 1.772 1.782.304l2.53 2.574L6.04 4.505l1.729-1.627L10.298.304l1.478 1.468L9.4 4.178z" transform="matrix(0 1 1 0 308.1 5.4)"/>
+    </g>
+</svg>
