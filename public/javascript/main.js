@@ -1,6 +1,4 @@
 (function() {
-    const $arrowContents = document.getElementsByClassName('arrow-content');
-
     new fullpage('#fullpage', {
         lazyLoading: true,
         dragAndMove: true,
@@ -8,17 +6,16 @@
             const $toggleArrows = document.getElementById('header-arrow');
 
             if (origin.index == 0 && direction =='down'){
-                console.log('remove');
                 $toggleArrows.classList.remove('hide');
             }
 
             else if (origin.index == 1 && direction == 'up'){
-                console.log('add');
                 $toggleArrows.classList.add('hide');
             }
         }
     });
 
+    const $arrowContents = document.getElementsByClassName('arrow-content');
 
     for (let i = 0; i < $arrowContents.length; i++) {
         const elem = $arrowContents[i];

@@ -1,7 +1,7 @@
 body {
     max-height: 100%;
     width: 100%;
-    background: tomato;
+    background: black;
 }
 
 .arrow-content {
@@ -20,6 +20,7 @@ body {
 
 .arrow-content.hide {
     height: 0;
+    overflow: hidden;
 }
 
 header{
@@ -43,7 +44,7 @@ header h1 {
 
 header a {
     display: block;
-    width: 100%;
+    width: 80%;
 }
 
 header img {
@@ -54,10 +55,10 @@ header img {
 /* SECTION EKO VIDEO */
 
 section.eko .content {
-    height: 90vh;
-    max-height: 90vh;
+    height: 87vh;
+    max-height: 87vh;
     width: 100vw;
-    margin-top: 5vh;
+    margin-top: 8vh;
 }
 
 section.eko iframe{
