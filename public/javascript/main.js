@@ -7,10 +7,12 @@
 
             if (origin.index == 0 && direction =='down'){
                 $toggleArrows.classList.remove('hide');
+                $toggleArrows.classList.add('show');
             }
 
             else if (origin.index == 1 && direction == 'up'){
                 $toggleArrows.classList.add('hide');
+                $toggleArrows.classList.remove('show');
             }
         }
     });

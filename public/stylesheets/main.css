@@ -1,7 +1,7 @@
 body {
     max-height: 100%;
     width: 100%;
-    background: black;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), #00afea), linear-gradient(to bottom, #06334c, #06334c);
 }
 
 .arrow-content {
@@ -9,14 +9,20 @@ body {
     max-height: 5vh;
     line-height: 5vh;
     text-align: center;
-    background: url('../images/arrow.png') center center no-repeat;
-    background-size: 15px 15px;
     transition: 0.6s ease-in-out all;
 }
 
-.arrow-content.up {
-    margin-top: 10px;
+.arrow-content img {
+    width: 2.5vh;
+    height: 2.5vh;
+    margin-top: 1.2vh;
 }
+
+.arrow-content.down { background: black; }
+
+.arrow-content.up img { transform: rotate(180deg); }
+
+.arrow-content.up.show { margin-top: 10px; }
 
 .arrow-content.hide {
     height: 0;
@@ -26,7 +32,7 @@ body {
 header{
     position: fixed;
     top: 0;
-    height: auto;
+    height: 73px;
     display:block;
     width: 100%;
     background: url("../images/header.svg");
@@ -37,17 +43,21 @@ header{
 
 header h1 {
     font-family: 'Montserrat', arial, helvetica, sans-serif;
-    font-weight: 700;
+    font-weight: 500;
+    font-size: 14px;
+    max-width: 80%;
     color: white;
-    margin-bottom: 8px;
+    display: inline-block;
 }
 
 header a {
-    display: block;
-    width: 80%;
+    display: inline-block;
+    width: 17px;
+    float: right;
+    margin-top: 13px;
 }
 
-header img {
+header .infos {
     display: block;
     width: 100%;
 }
@@ -55,6 +65,7 @@ header img {
 /* SECTION EKO VIDEO */
 
 section.eko .content {
+    background: black;
     height: 87vh;
     max-height: 87vh;
     width: 100vw;
@@ -69,5 +80,4 @@ section.eko iframe{
 /* SECTION PETITION */
 
 section.petition .content {
-    /*height: 100%;*/
 }

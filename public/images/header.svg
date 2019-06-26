@@ -1,18 +1,30 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="414" height="89" viewBox="0 0 414 89">
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="415px" height="73px" viewBox="0 0 415 73" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>background / header</title>
+    <desc>Created with Sketch.</desc>
     <defs>
-        <linearGradient id="a" x1="-246.412%" x2="164.52%" y1="36.23%" y2="54.698%">
-            <stop offset="0%" stop-color="#E73E11"/>
-            <stop offset="4.574%" stop-color="#E5500F"/>
-            <stop offset="20.248%" stop-color="#DE8B09"/>
-            <stop offset="33.648%" stop-color="#D9B504"/>
-            <stop offset="44.097%" stop-color="#D6CF01"/>
-            <stop offset="50.315%" stop-color="#D5D900"/>
-            <stop offset="55.122%" stop-color="#C9D70D"/>
-            <stop offset="64.08%" stop-color="#A9D030"/>
-            <stop offset="76.213%" stop-color="#75C669"/>
-            <stop offset="90.889%" stop-color="#2FB8B6"/>
-            <stop offset="100%" stop-color="#00AFEA"/>
+        <linearGradient x1="-344.606306%" y1="-1.85890103%" x2="136.151038%" y2="61.8979335%" id="linearGradient-1">
+            <stop stop-color="#E73E11" offset="0%"></stop>
+            <stop stop-color="#E5500F" offset="5.87598334%"></stop>
+            <stop stop-color="#DE8B09" offset="20.248%"></stop>
+            <stop stop-color="#D9B504" offset="33.648%"></stop>
+            <stop stop-color="#D6CF01" offset="44.097%"></stop>
+            <stop stop-color="#D5D900" offset="50.315%"></stop>
+            <stop stop-color="#C9D70D" offset="55.122%"></stop>
+            <stop stop-color="#A9D030" offset="64.08%"></stop>
+            <stop stop-color="#75C669" offset="76.213%"></stop>
+            <stop stop-color="#2FB8B6" offset="90.889%"></stop>
+            <stop stop-color="#00AFEA" offset="100%"></stop>
         </linearGradient>
     </defs>
-    <path fill="url(#a)" fill-rule="nonzero" d="M0 0h414v89H0z"/>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="header-/-banneer" fill="url(#linearGradient-1)" fill-rule="nonzero">
+            <g id="vecto">
+                <g id="button-/-banner" transform="translate(0.500000, 0.000000)">
+                    <path d="M0.5,0 L414.5,0 C414.5,47.3333333 414.5,71 414.5,71 C347.524268,76 304.20889,63 228.5,63 C152.79111,63 93.7868415,78 0.5,64.5 C-0.166666667,64.5 -0.166666667,43 0.5,0 Z" id="background-/-header"></path>
+                </g>
+            </g>
+        </g>
+    </g>
 </svg>
