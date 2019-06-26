@@ -4,7 +4,7 @@
     <title>background / header</title>
     <desc>Created with Sketch.</desc>
     <defs>
-        <linearGradient x1="-344.606306%" y1="-1.85890103%" x2="136.151038%" y2="61.8979335%" id="linearGradient-1">
+        <linearGradient x1="-344.606306%" y1="-1.7340151%" x2="136.151038%" y2="61.8692811%" id="linearGradient-1">
             <stop stop-color="#E73E11" offset="0%"></stop>
             <stop stop-color="#E5500F" offset="5.87598334%"></stop>
             <stop stop-color="#DE8B09" offset="20.248%"></stop>
@@ -20,9 +20,9 @@
     </defs>
     <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="header-/-banneer" fill="url(#linearGradient-1)" fill-rule="nonzero">
-            <g id="vecto">
+            <g id="vecto" transform="translate(-1.000000, 0.000000)">
                 <g id="button-/-banner" transform="translate(0.500000, 0.000000)">
-                    <path d="M0.5,0 L414.5,0 C414.5,47.3333333 414.5,71 414.5,71 C347.524268,76 304.20889,63 228.5,63 C152.79111,63 93.7868415,78 0.5,64.5 C-0.166666667,64.5 -0.166666667,43 0.5,0 Z" id="background-/-header"></path>
+                    <path d="M0.5,0 L415.5,0 C415.5,47.3333333 415.5,71 415.5,71 C348.524268,76 305.20889,63 229.5,63 C153.79111,63 93.7868415,77.7253182 0.5,64.2253182 C0.5,64.2253182 0.5,42.8168788 0.5,0 Z" id="background-/-header"></path>
                 </g>
             </g>
         </g>
