@@ -38,7 +38,7 @@ body {
 header{
     position: fixed;
     top: 0;
-    height: 80px;
+    height: 55px;
     display:block;
     width: 100%;
     background: url("../images/header.svg") 100% 100% no-repeat;
@@ -50,11 +50,10 @@ header{
 
 header h1 {
     font-weight: 500;
-    font-size: 15px;
+    font-size: 14px;
     max-width: 80%;
     color: white;
     display: inline-block;
-    line-height: 17px;
 }
 
 header a {
@@ -73,10 +72,10 @@ header .infos {
 
 section.eko .content {
     background: black;
-    height: 86vh;
+    height: 90vh;
     max-height: 90vh;
     width: 100vw;
-    margin-top: 9vh;
+    margin-top: 5vh;
 }
 
 section.eko iframe{
