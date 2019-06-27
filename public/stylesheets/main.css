@@ -37,10 +37,11 @@ body {
 header{
     position: fixed;
     top: 0;
-    height: 73px;
+    height: 55px;
     display:block;
     width: 100%;
-    background: url("../images/header.svg") no-repeat;
+    background: url("../images/header.svg") 100% 100% no-repeat;
+    background-size: cover;
     z-index: 9;
     padding: 10px;
     box-sizing: border-box;
@@ -70,10 +71,10 @@ header .infos {
 
 section.eko .content {
     background: black;
-    height: 87vh;
-    max-height: 87vh;
+    height: 95vh;
+    max-height: 95vh;
     width: 100vw;
-    margin-top: 8vh;
+    /*margin-top: 8vh;*/
 }
 
 section.eko iframe{
