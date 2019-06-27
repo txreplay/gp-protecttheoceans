@@ -88,6 +88,8 @@ section.eko iframe{
 section.petition .content {
     padding: 0 20px;
     color: white;
+    max-width: 500px;
+    margin: 0 auto;
 }
 
 section.petition label, section.petition input {
@@ -103,6 +105,8 @@ section.petition input {
     font-family: Montserrat, arial, helvetica, sans-serif;
     font-weight: 600;
     width: 90%;
+    max-width: 350px;
+    margin: 0 auto;
     height: 25px;
     padding: 10px;
     color: white;
