@@ -35,7 +35,7 @@ header{
     height: 73px;
     display:block;
     width: 100%;
-    background: url("../images/header.svg");
+    background: url("../images/header.svg") no-repeat;
     z-index: 9;
     padding: 10px;
     box-sizing: border-box;
@@ -80,4 +80,27 @@ section.eko iframe{
 /* SECTION PETITION */
 
 section.petition .content {
+}
+
+.tab {
+    display: none;
+}
+
+.step {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbbbbb;
+    border: none;
+    border-radius: 50%;
+    display: inline-block;
+    opacity: 0.5;
+}
+
+.step.active {
+    opacity: 1;
+}
+
+.step.finish {
+    background-color: #4CAF50;
 }

@@ -21,7 +21,7 @@
 <div id="fullpage">
     <section class="section eko">
         <div class="content">
-            <iframe height="1280" width="720" src="https://video.helloeko.com/v/VlvvKD?autoplay=true" frameborder="0" allowfullscreen></iframe>
+            <iframe height="1280" width="720" scrolling="no" src="https://video.helloeko.com/v/VlvvKD/embed?publisherID=QUaFL0" frameborder="0" allowfullscreen></iframe>
         </div>
         <div class="arrow-content down">
             <img src="images/arrow.svg">
@@ -30,31 +30,36 @@
 
     <section class="section petition">
         <div class="content">
-            <h2>Soutien Samuel et signes la pétition</h2>
-            <form action="" method="post">
-                <div class="form-group">
+            <form id="regForm" action="" method="post">
+                <div class="tab form-group">
                     <label for="firstname" id="firstname">Prénom</label>
-                    <input name="firstname" title="firstname" type="text">
+                    <input name="firstname" title="firstname" placeholder="Ton prénom" type="text">
                 </div>
-                <div class="form-group">
+                <div class="tab form-group">
                     <label for="lastname" id="lastname">Nom de famille</label>
-                    <input name="lastname" title="lastname" type="text">
+                    <input name="lastname" title="lastname" placeholder="Ton nom" type="text">
                 </div>
-                <div class="form-group">
+                <div class="tab form-group">
                     <label for="email" id="email">E-mail</label>
-                    <input name="email" title="email" type="email">
+                    <input name="email" title="email" placeholder="Ton e-mail" type="email">
                 </div>
-                <div class="form-group">
-                    <label for="city" id="city">Ville</label>
-                    <input name="city" title="city" type="text">
+                <div class="tab form-group">
+                    <label for="city" id="city">Code postal</label>
+                    <input name="city" title="city" placeholder="Ton code postal" type="text">
                 </div>
 
-                <p>
-                    <small>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis earum, eius libero molestiae necessitatibus placeat veritatis? Accusamus aliquid consequuntur dolore hic nam. Incidunt, odit voluptas. Cupiditate earum excepturi labore quaerat.</small>
-                </p>
+                <div style="overflow:auto;">
+                    <div style="float:right;">
+                        <button type="button" id="prevBtn" onclick="nextPrev(-1)">Précedent</button>
+                        <button type="button" id="nextBtn" onclick="nextPrev(1)">Suivant</button>
+                    </div>
+                </div>
 
-                <div class="form-submit">
-                    <input type="submit" value="Je signe">
+                <div style="text-align:center;margin-top:40px;">
+                    <span class="step"></span>
+                    <span class="step"></span>
+                    <span class="step"></span>
+                    <span class="step"></span>
                 </div>
             </form>
         </div>
