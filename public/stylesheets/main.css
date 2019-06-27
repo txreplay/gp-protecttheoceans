@@ -38,7 +38,7 @@ body {
 header{
     position: fixed;
     top: 0;
-    height: 55px;
+    height: 80px;
     display:block;
     width: 100%;
     background: url("../images/header.svg") 100% 100% no-repeat;
@@ -50,10 +50,11 @@ header{
 
 header h1 {
     font-weight: 500;
-    font-size: 14px;
+    font-size: 15px;
     max-width: 80%;
     color: white;
     display: inline-block;
+    line-height: 17px;
 }
 
 header a {
@@ -72,10 +73,10 @@ header .infos {
 
 section.eko .content {
     background: black;
-    height: 90vh;
+    height: 86vh;
     max-height: 90vh;
     width: 100vw;
-    margin-top: 5vh;
+    margin-top: 9vh;
 }
 
 section.eko iframe{
@@ -191,7 +192,7 @@ section.petition #submit input[type=submit] {
 }
 
 @media screen and (min-width: 768px) {
-    
+
     header {
         text-align: center;
         height: 80px;
