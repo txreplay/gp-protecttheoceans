@@ -59,7 +59,19 @@ function showTab(n) {
     $tab[n].style.display = "block";
 
     document.getElementById("prevBtn").style.display = (n === 0) ? "none" : "inline";
-    document.getElementById("nextBtn").innerHTML = (n === ($tab.length - 1)) ? "Je signe" : "Suivant";
+    if ((n === ($tab.length - 1))) {
+        document.getElementById("nextBtn").classList.add('hide');
+        document.getElementById("nextBtn").classList.remove('next');
+
+        document.getElementById("submit").classList.remove('hide');
+
+    } else {
+        document.getElementById("nextBtn").classList.add('next');
+        document.getElementById("nextBtn").classList.remove('hide');
+
+        document.getElementById("submit").classList.add('hide');
+    }
+
 
     fixStepIndicator(n);
 }

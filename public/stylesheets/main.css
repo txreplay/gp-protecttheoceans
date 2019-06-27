@@ -98,13 +98,13 @@ section.petition label, section.petition input {
 
 section.petition label {
     font-weight: 700;
-    margin: 0 0 60px 0;
+    margin: 0 0 30px 0;
 }
 
-section.petition input {
+section.petition .form-input {
     font-family: Montserrat, arial, helvetica, sans-serif;
     font-weight: 600;
-    width: 90%;
+    width: 80%;
     max-width: 350px;
     margin: 0 auto;
     height: 25px;
@@ -118,6 +118,34 @@ section.petition input {
 
 section.petition .content .tab {
     display: none;
+}
+
+section.petition button {
+    border: none;
+    outline: none;
+    width: 20px;
+    height: 20px;
+}
+
+section.petition .prevNext {
+    overflow: auto;
+    margin-top: 10px;
+}
+
+section.petition .prevNext #nextBtn {
+    cursor: pointer;
+    background: url('../images/arrow-right.svg') center center no-repeat;
+    float: right;
+}
+
+section.petition .prevNext #nextBtn.hide {
+    display: none;
+}
+
+section.petition .prevNext #prevBtn {
+    cursor: pointer;
+    background: url('../images/arrow-left.svg') center center no-repeat;
+    float: left;
 }
 
 section.petition .content .step {
@@ -137,4 +165,26 @@ section.petition .content .step.active {
 
 section.petition .content .step.finish {
     background-color: #36b49f;
+}
+
+
+section.petition #submit.hide {
+    display: none;
+}
+
+section.petition #submit {
+    margin-top: 30px;
+}
+
+section.petition #submit small {
+    font-size: 10px;
+}
+
+section.petition #submit input[type=submit] {
+    cursor: pointer;
+    background: url('../images/submit.svg') center center no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: auto;
+    margin: 20px auto;
 }
