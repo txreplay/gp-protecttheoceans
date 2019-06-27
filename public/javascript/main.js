@@ -48,11 +48,16 @@ const $inputs = document.getElementsByClassName('form-input');
         $inputs[j].addEventListener("keyup", function(event) {
             if (event.keyCode === 13) {
                 event.preventDefault();
-                console.log(this);
                 nextPrev(1);
             }
         });
     }
+
+    document.getElementById('regForm').addEventListener("submit", function(event) {
+        event.preventDefault();
+        document.getElementById('regForm').classList.add('hide');
+        document.getElementById('thanks').classList.remove('hide');
+    });
 })();
 
 function showTab(n) {
@@ -81,7 +86,9 @@ function nextPrev(n) {
     $tab[currentTab].style.display = "none";
     currentTab = currentTab + n;
     if (currentTab >= $tab.length) {
-        document.getElementById("regForm").submit();
+        // document.getElementById("regForm").submit();
+        document.getElementById('regForm').classList.add('hide');
+        document.getElementById('thanks').classList.remove('hide');
         return false;
     }
     showTab(currentTab);

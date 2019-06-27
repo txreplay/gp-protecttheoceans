@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="388" height="48" viewBox="0 0 388 48">
+    <defs>
+        <linearGradient id="a" x1="-279.275%" x2="151.345%" y1="44.5%" y2="51.78%">
+            <stop offset="0%" stop-color="#E73E11"/>
+            <stop offset="4.574%" stop-color="#E5500F"/>
+            <stop offset="20.248%" stop-color="#DE8B09"/>
+            <stop offset="33.648%" stop-color="#D9B504"/>
+            <stop offset="44.097%" stop-color="#D6CF01"/>
+            <stop offset="50.315%" stop-color="#D5D900"/>
+            <stop offset="55.122%" stop-color="#C9D70D"/>
+            <stop offset="64.08%" stop-color="#A9D030"/>
+            <stop offset="76.213%" stop-color="#75C669"/>
+            <stop offset="90.889%" stop-color="#2FB8B6"/>
+            <stop offset="100%" stop-color="#00AFEA"/>
+        </linearGradient>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <path fill="url(#a)" fill-rule="nonzero" d="M12.124 0h372.352l2.915 2.91L375 48H3.595L0 44z"/>
+        <path fill="#FFF" d="M12.124 0h372.352l-12.124 44H0z"/>
+        <text fill="#36B49F" font-family="Montserrat-BoldItalic, Montserrat" font-size="26" font-style="italic" font-weight="bold">
+            <tspan x="76" y="37">JE FAIS UN DON !</tspan>
+        </text>
+    </g>
+</svg>

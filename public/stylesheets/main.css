@@ -93,6 +93,10 @@ section.petition .content {
     margin: 0 auto;
 }
 
+section.petition #regForm.hide {
+    display: none;
+}
+
 section.petition label, section.petition input {
     display: block;
 }
@@ -188,4 +192,47 @@ section.petition #submit input[type=submit] {
     width: 100%;
     height: auto;
     margin: 20px auto;
+}
+
+section.petition #thanks.hide {
+    display: none;
+}
+
+section.petition #thanks {
+    text-align: center;
+    font-weight: 700;
+}
+
+section.petition img {
+    max-width: 90%;
+}
+
+section.petition #thanks .nb {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+section.petition #thanks .gauge {
+    display: block;
+    margin: 20px auto;
+}
+
+section.petition #thanks .merci {
+    font-size: 30px;
+    margin: 15px 0;
+}
+
+section.petition #thanks .btns {
+    margin: 20px 0;
+}
+
+section.petition #thanks .btns img {
+    margin: 5px 0;
+}
+
+section.petition #thanks .gp {
+    font-weight: 600;
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
 }
