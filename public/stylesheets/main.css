@@ -1,8 +1,13 @@
 body {
     max-height: 100%;
     width: 100%;
+    font-family: 'Montserrat', arial, helvetica, sans-serif;
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), #00afea), linear-gradient(to bottom, #06334c, #06334c);
 }
+
+::placeholder {color: white; opacity: 0.6;}
+:-ms-input-placeholder {color: white;}
+::-ms-input-placeholder {color: white;}
 
 .arrow-content {
     height: 5vh;
@@ -42,7 +47,6 @@ header{
 }
 
 header h1 {
-    font-family: 'Montserrat', arial, helvetica, sans-serif;
     font-weight: 500;
     font-size: 14px;
     max-width: 80%;
@@ -80,15 +84,39 @@ section.eko iframe{
 /* SECTION PETITION */
 
 section.petition .content {
+    padding: 0 20px;
+    color: white;
 }
 
-.tab {
+section.petition label, section.petition input {
+    display: block;
+}
+
+section.petition label {
+    font-weight: 700;
+    margin: 0 0 60px 0;
+}
+
+section.petition input {
+    font-family: Montserrat, arial, helvetica, sans-serif;
+    font-weight: 600;
+    width: 90%;
+    height: 25px;
+    padding: 10px;
+    color: white;
+    border: none;
+    outline: none;
+    background: transparent url('../images/input.svg') center center no-repeat;
+    background-size: contain;
+}
+
+section.petition .content .tab {
     display: none;
 }
 
-.step {
-    height: 15px;
-    width: 15px;
+section.petition .content .step {
+    height: 8px;
+    width: 8px;
     margin: 0 2px;
     background-color: #bbbbbb;
     border: none;
@@ -97,10 +125,10 @@ section.petition .content {
     opacity: 0.5;
 }
 
-.step.active {
+section.petition .content .step.active {
     opacity: 1;
 }
 
-.step.finish {
-    background-color: #4CAF50;
+section.petition .content .step.finish {
+    background-color: #36b49f;
 }

@@ -1,7 +1,8 @@
 let currentTab = 0;
 
 const $arrowContents = document.getElementsByClassName('arrow-content');
-let $tab = document.getElementsByClassName("tab");
+const $tab = document.getElementsByClassName('tab');
+const $inputs = document.getElementsByClassName('form-input');
 
 (function() {
     // Fullpage initialization
@@ -39,8 +40,19 @@ let $tab = document.getElementsByClassName("tab");
         }
     }
 
-    // Form
+    // Form tabs
     showTab(currentTab);
+
+    // Listen for enter to go to next tab
+    for (let j = 0; j < $inputs.length; j++) {
+        $inputs[j].addEventListener("keyup", function(event) {
+            if (event.keyCode === 13) {
+                event.preventDefault();
+                console.log(this);
+                nextPrev(1);
+            }
+        });
+    }
 })();
 
 function showTab(n) {
