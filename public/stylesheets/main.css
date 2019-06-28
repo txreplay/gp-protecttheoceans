@@ -21,6 +21,7 @@ body {
     width: 2.5vh;
     height: 2.5vh;
     margin-top: 1.2vh;
+    cursor: pointer;
 }
 
 .arrow-content.down { background: black; }
@@ -172,7 +173,6 @@ section.petition .content .step.finish {
     background-color: #36b49f;
 }
 
-
 section.petition #submit.hide {
     display: none;
 }
@@ -235,4 +235,41 @@ section.petition #thanks .gp {
     font-size: 14px;
     color: white;
     text-decoration: none;
+
+@media screen and (min-width: 768px) {
+
+    header {
+        text-align: center;
+        height: 80px;
+    }
+
+    header h1 {
+        font-size: 18px
+    }
+
+    .arrow-content.up.show {
+        margin-top: 40px;
+    }
+
+    section.petition .form-input, section.petition label {
+        font-size: 30px;
+    }
+
+    section.petition .content .step {
+        width: 15px;
+        height: 15px;
+    }
+
+    section.petition #submit small {
+        font-size: 12px;
+    }
+
+    section.eko .content {
+        margin-top: 10vh;
+        height: 85vh;
+    }
+
+    section.section.eko.fp-section.fp-table {
+        background-color: #000;
+    }
 }
